@@ -38,7 +38,7 @@ The new multipurpose rss reader, live stream, mashup, aggregation web applicatio
 
 ```yml
 selfoss:
-  image: hardware/selfoss
+  image: hydrog3n/selfoss
   container_name: selfoss
   volumes:
     - /mnt/docker/selfoss:/selfoss/data
